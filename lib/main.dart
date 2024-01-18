@@ -11,7 +11,7 @@ typedef GetDiskInfoC = DiskInfo Function();
 
 // Load the library
 
-final dynamicLibrary = DynamicLibrary.open("C:\\Users\\joshu\\Desktop\\driveadviser\\working.dll"); // Replace with the actual DLL name
+final dynamicLibrary = DynamicLibrary.open("path to the working.dll file"); // Replace with the actual DLL name
 
 
 // Bind the C function to a Dart function
